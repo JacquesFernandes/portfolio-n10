@@ -1,0 +1,34 @@
+$landing_header_size: 3em;
+$page_header_size: 2em;
+$section_header_size: 1.5em;
+$text_size: 1em;
+
+.landingHeader {
+  font-family: 'Permanent Marker', cursive;
+  font-size: $landing_header_size;
+}
+
+.pageHeader {
+  font-size: $page_header_size;
+}
+
+.sectionHeader {
+  font-size: $section_header_size;
+  font-weight: bold;
+}
+
+.subSectionHeader {
+  font-size: $section_header_size;
+}
+
+.text {
+  font-size: $text_size;
+}
+
+.permanentMarkerFont {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.robotoFont {
+  font-family: 'Roboto', sans-serif;
+}
