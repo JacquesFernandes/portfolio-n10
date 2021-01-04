@@ -1,0 +1,33 @@
+
+._flex {
+  display: flex;
+
+  hr {
+    display: none;
+
+    @media (min-width: 660px) {
+      display: block;
+      margin: 0 5px;
+    }
+  }
+}
+
+.flexRow {
+  composes: _flex;
+
+  flex-flow: row wrap;
+}
+
+.column {
+  min-width: 290px;
+  width: 50%;
+  flex: 1;
+
+  composes: _flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  p, a {
+    margin: 10px;
+  }
+}
