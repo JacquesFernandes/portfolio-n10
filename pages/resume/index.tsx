@@ -129,32 +129,40 @@ export default function Resume() {
             <H2>Notable Projects</H2>
 
             <Project
-              name="OpenPlans"
-              projectSource="BrightSignals / Scottish Govt."
+              name="STV News Flutter MVP app"
+              projectSource="BrightSignals / STV News"
             >
-              <p>Built a full-blown skeeball machine using the following...</p>
-              <ListContainer>
-                <H4>Hardware</H4>
-                <UL>
-                  <LI>Raspberry Pi</LI>
-                  <LI>Handful of distance sensors</LI>
-                  <LI>Montior & Speakers</LI>
-                  <LI>Quite a bit of wiring</LI>
-                </UL>
-              </ListContainer>
+              <p>After receiving the task to speed up the existing STV News mobile apps (built with Cordova/PhoneGap), pitched the usage of Flutter for building the apps.</p>
+              <p>Ended up being tasked with building an "MVP" / demo app in Flutter to see how it would compare.</p>
+              <p>Built an app which would fetch and render articles from a Wordpress API as well as serve advertisements from Google AdMob.</p>
+              <p>Early stages of the Flutter app showed drastically reduced launch and load times for articles.</p>
               <ListContainer>
                 <H4>Software</H4>
                 <UL>
-                  <LI>React - to display the UI</LI>
-                  <LI>Flask - Python webserver</LI>
-                  <LI>Python - to interface with hardware from withing the Flask webserver</LI>
+                  <LI>Flutter - Performant mobile app framework from Google</LI>
+                  <LI>Wordpress (ReST JSON API) - sent requests to fetch data and what not</LI>
+                </UL>
+              </ListContainer>
+            </Project>
+
+            <Project
+              name="OpenPlans"
+              projectSource="BrightSignals / Scottish Govt."
+            >
+              <p>Built a 3D viewing room for virtual consultations.</p>
+              <p>Initially used by companies such as SSE for hosting virtual town halls for their development plans.</p>
+              <ListContainer>
+                <H4>Software</H4>
+                <UL>
+                  <LI>React JS - For the UI and state management.</LI>
+                  <LI>Marzipano - Plugged in <a href="https://www.marzipano.net/" rel="noreferrer" className="underline italic" >this</a> "vanilla JS" tool into React for the 3D room effect</LI>
                 </UL>
               </ListContainer>
             </Project>
 
             <Project
               name="Skeeball Machine"
-              projectSource="BrightSignals"
+              projectSource="BrightSignals/Meantime"
             >
               <p>Built a full-blown skeeball machine using the following...</p>
               <ListContainer>
