@@ -20,7 +20,7 @@ export default function Resume() {
           <UL>
             <LI><strong>Passionate</strong> about tech and software development</LI>
             <LI><strong>Language-agnostic</strong> developer - don't have a preference, just the right tool(s) for the job</LI>
-            <LI><strong>Quick learner</strong> - able to pick up technologies/frameworkds fairly easily</LI>
+            <LI><strong>Quick learner</strong> - able to pick up technologies/frameworks fairly easily</LI>
           </UL>
         </div>
 
