@@ -89,7 +89,7 @@ export default function Resume() {
               <Experience 
                 company="BrightSignals"
                 position="Full Stack Developer"
-                startDate="late 2018"
+                startDate="early 2019"
               >
                 <p>Worked on a myriad of web applications and the occasional mobile app while polishing my understanding of CSS and styling.</p>
                 <p>Some of the more notable clients include; The (Edinburgh) Fringe, See Me In Work, Edinburgh Gin, Linn and STV</p>
@@ -99,6 +99,7 @@ export default function Resume() {
                 company="Castiko"
                 position="CTO"
                 startDate="late 2017"
+                endDate="late 2018"
               >
                 <p>Continued coding despite being appointed as the CTO, to ensure that I remained close to the implementation (as well as the fact that I enjoy coding.)</p>
                 <p>Improved developer work flows and introduced new technologies such as Flutter for mobile apps</p>
@@ -108,6 +109,7 @@ export default function Resume() {
                 company="Castiko"
                 position="Team Lead"
                 startDate="2017"
+                endDate="2018"
               >
                 <p>Migrated an existing LAMP stack to a brand-new MERN stack while adding new features.</p>
                 <p>Addressed securty vulnerabilities in existing system.</p>
@@ -117,7 +119,8 @@ export default function Resume() {
               <Experience 
                 company="Freelancing"
                 position="Software Developer"
-                startDate="N/A"
+                startDate="2013"
+                endDate="2017"
               >
                 <p>Worked on many professional applications for different people while doing my undergrad.</p>
               </Experience>
