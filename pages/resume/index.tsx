@@ -91,7 +91,8 @@ export default function Resume() {
                 position="Full Stack Developer"
                 startDate="late 2018"
               >
-                <p>Worked on a myriad of web applications and the occasional mobile app.</p>
+                <p>Worked on a myriad of web applications and the occasional mobile app while polishing my understanding of CSS and styling.</p>
+                <p>Some of the more notable clients include; The (Edinburgh) Fringe, See Me In Work, Edinburgh Gin, Linn and STV</p>
               </Experience>
 
               <Experience 
@@ -99,7 +100,8 @@ export default function Resume() {
                 position="CTO"
                 startDate="late 2017"
               >
-                <p>Worked on a myriad of web applications and the occasional mobile app.</p>
+                <p>Continued coding despite being appointed as the CTO, to ensure that I remained close to the implementation (as well as the fact that I enjoy coding.)</p>
+                <p>Improved developer work flows and introduced new technologies such as Flutter for mobile apps</p>
               </Experience>
 
               <Experience 
@@ -107,15 +109,17 @@ export default function Resume() {
                 position="Team Lead"
                 startDate="2017"
               >
-                <p>Worked on a myriad of web applications and the occasional mobile app.</p>
+                <p>Migrated an existing LAMP stack to a brand-new MERN stack while adding new features.</p>
+                <p>Addressed securty vulnerabilities in existing system.</p>
+                <p>Also standardised UI across the platform and introduced websockets for RTC.</p>
               </Experience>
 
               <Experience 
                 company="Freelancing"
-                position="Full Stack Developer"
+                position="Software Developer"
                 startDate="N/A"
               >
-                <p>Worked on a myriad of web applications and the occasional mobile app.</p>
+                <p>Worked on many professional applications for different people while doing my undergrad.</p>
               </Experience>
             </div>
           </div>
@@ -123,31 +127,54 @@ export default function Resume() {
           <div className="flex-1" >
             {/*Notable Projects*/}
             <H2>Notable Projects</H2>
-            <div>
-              <Project
-                name="Skeeball Machine"
-                projectSource="BrightSignals"
-              >
-                <p>Built a full-blown skeeball machine using the following...</p>
-                <ListContainer>
-                  <H4>Hardware</H4>
-                  <UL>
-                    <LI>Raspberry Pi</LI>
-                    <LI>Handful of distance sensors</LI>
-                    <LI>Montior & Speakers</LI>
-                    <LI>Quite a bit of wiring</LI>
-                  </UL>
-                </ListContainer>
-                <ListContainer>
-                  <H4>Software</H4>
-                  <UL>
-                    <LI>React - to display the UI</LI>
-                    <LI>Flask - Python webserver</LI>
-                    <LI>Python - to interface with hardware from withing the Flask webserver</LI>
-                  </UL>
-                </ListContainer>
-              </Project>
-            </div>
+
+            <Project
+              name="Skeeball Machine"
+              projectSource="BrightSignals"
+            >
+              <p>Built a full-blown skeeball machine using the following...</p>
+              <ListContainer>
+                <H4>Hardware</H4>
+                <UL>
+                  <LI>Raspberry Pi</LI>
+                  <LI>Handful of distance sensors</LI>
+                  <LI>Montior & Speakers</LI>
+                  <LI>Quite a bit of wiring</LI>
+                </UL>
+              </ListContainer>
+              <ListContainer>
+                <H4>Software</H4>
+                <UL>
+                  <LI>React - to display the UI</LI>
+                  <LI>Flask - Python webserver</LI>
+                  <LI>Python - to interface with hardware from withing the Flask webserver</LI>
+                </UL>
+              </ListContainer>
+            </Project>
+
+            <Project
+              name="Skeeball Machine"
+              projectSource="BrightSignals"
+            >
+              <p>Built a full-blown skeeball machine using the following...</p>
+              <ListContainer>
+                <H4>Hardware</H4>
+                <UL>
+                  <LI>Raspberry Pi</LI>
+                  <LI>Handful of distance sensors</LI>
+                  <LI>Montior & Speakers</LI>
+                  <LI>Quite a bit of wiring</LI>
+                </UL>
+              </ListContainer>
+              <ListContainer>
+                <H4>Software</H4>
+                <UL>
+                  <LI>React - to display the UI</LI>
+                  <LI>Flask - Python webserver</LI>
+                  <LI>Python - to interface with hardware from withing the Flask webserver</LI>
+                </UL>
+              </ListContainer>
+            </Project>
           </div>
         </div>
       </div>
