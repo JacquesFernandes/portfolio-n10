@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { H2, H3, H4 } from './_partials/headers';
-import { UL, LI } from './_partials/lists';
-import { ListContainer, Experience, Project } from './_partials/containers';
+import { H2, H3, H4 } from '../../components/resume_partials/headers';
+import { UL, LI } from '../../components/resume_partials/lists';
+import { ListContainer, Experience, Project } from '../../components/resume_partials/containers';
 
 const HR: React.FunctionComponent = () => <hr className="my-3" />;
 
@@ -129,8 +129,8 @@ export default function Resume() {
             <H2>Notable Projects</H2>
 
             <Project
-              name="Skeeball Machine"
-              projectSource="BrightSignals"
+              name="OpenPlans"
+              projectSource="BrightSignals / Scottish Govt."
             >
               <p>Built a full-blown skeeball machine using the following...</p>
               <ListContainer>
