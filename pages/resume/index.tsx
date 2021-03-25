@@ -35,9 +35,9 @@ export default function Resume() {
             <UL>
               <LI>Javascript (JS)</LI>
               <LI>Typescript (TS)</LI>
+              <LI>PHP (7.x +)</LI>
               <LI>Dart</LI>
               <LI>Python (3.x)</LI>
-              <LI>PHP</LI>
               <LI>MySQL</LI>
               <LI>NoSQL (MongoDB)</LI>
               <LI>Java</LI>
@@ -49,20 +49,20 @@ export default function Resume() {
             <UL>
               <LI>React (JS / TS)</LI>
               <LI>Next (JS / TS)</LI>
-              <LI>MERN Stack</LI>
-              <LI>Tailwind CSS</LI>
-              <LI>Futter (Dart)</LI>
-              <LI>Flask (Python)</LI>
-              <LI>Vanilla LAMP Stack</LI>
               <LI>Laravel</LI>
+              <LI>Futter (Dart)</LI>
+              <LI>Tailwind CSS</LI>
               <LI>Craft CMS</LI>
+              <LI>MERN Stack</LI>
+              <LI>Vanilla LAMP Stack</LI>
+              <LI>Flask (Python)</LI>
             </UL>
           </ListContainer>
 
           <ListContainer>
             <H3>Operating Systems</H3>
             <UL>
-              <LI>Fedora (my daily driver is runs this)</LI>
+              <LI>Fedora (my daily driver runs this)</LI>
               <LI>Ubuntu / Debian</LI>
               <LI>MacOS</LI>
             </UL>
@@ -92,7 +92,7 @@ export default function Resume() {
                 startDate="early 2019"
               >
                 <p>Worked on a myriad of web applications and the occasional mobile app while polishing my understanding of CSS and styling.</p>
-                <p>Some of the more notable clients include; The (Edinburgh) Fringe, See Me In Work, Edinburgh Gin, Linn and STV</p>
+                <p>Some of the more notable clients include; The (Edinburgh) Fringe, See Me In Work, Edinburgh Gin, Linn and STV News</p>
               </Experience>
 
               <Experience 
