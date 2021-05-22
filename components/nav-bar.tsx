@@ -56,8 +56,8 @@ export default function NavBar() {
         <ul>
           {
             pages.map(({ name, href }, index) => <>
-              <Link href={href} key={`mob_nav_index_${index}`} >
-                <li className="p-4 cursor-pointer" >
+              <Link href={href} >
+                <li key={`mob_nav_index_${index}`} className="p-4 cursor-pointer" >
                   <a>{ name }</a>
                 </li>
               </Link>
