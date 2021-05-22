@@ -51,7 +51,7 @@ export default function NavBar() {
 
       {/* Mobile Nav */}
       <div
-        className={"w-full sticky top-0 bg-gray-200 md:hidden transition-opacity duration-100 " + `${mobileNavOpen? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
+        className={"w-full absolute bg-gray-200 md:hidden transition-opacity duration-100 " + `${mobileNavOpen? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
       >
         <ul>
           {
