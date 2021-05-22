@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import Link from 'next/link';
 import HighlightLink from '../components/highlight-link';
 
-function useDelayedState<T>(initialValue: T, delayMs: number) {
-  const [ stateValue, setStateValue ] = useState(null);
+function useDelayedState<T>(initialValue: T, delayMs: number): [ T, React.Dispatch<T> ] {
+  const [ stateValue, setStateValue ] = useState(initialValue);
 
-  const delayedSetStateFunction: React.Dispatch<any> = (newValue: T) => {
+  const delayedSetStateFunction: React.Dispatch<T> = (newValue: T) => {
     setTimeout(() => {
       setStateValue(newValue);
     }, delayMs);
