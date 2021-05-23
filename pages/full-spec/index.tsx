@@ -1,5 +1,6 @@
 import NavBar from "../../components/nav-bar";
-import { H2 } from '../../components/full_spec_partials/headers';
+import { H2, H3 } from '../../components/full_spec_partials/headers';
+import Link from "next/link";
 
 export default function FullSpec() {
   return(
@@ -16,6 +17,26 @@ export default function FullSpec() {
           <p>How about someone who can also build physical installations, like a <a href="https://en.wikipedia.org/wiki/Skee-Ball" >skeeball machine</a>?</p>
           <p>Or are you just looking for an all-rounder, jack-of-all-trades developer to chill and chat with over a drink?</p>
           <p>If your interest is piqued by any of the above, stick around and find out more!</p>
+        </section>
+
+        <H2>A Rough Tour</H2>
+
+        <section>
+          <H3>Projects</H3>
+          <p>Excepteur velit et consequat id in adipisicing ad dolor deserunt laborum ea.</p>
+          <Link href="#" ><a>See More...</a></Link>
+        </section>
+
+        <section>
+          <H3>Technologies</H3>
+          <p>Ea labore sint est consequat enim enim esse.</p>
+          <Link href="#" ><a>See More...</a></Link>
+        </section>
+
+        <section>
+          <H3>About Me</H3>
+          <p>Nisi et labore Lorem consequat cupidatat commodo do quis laborum.</p>
+          <Link href="#" ><a>See More...</a></Link>
         </section>
 
       </main>
