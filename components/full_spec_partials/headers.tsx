@@ -1,13 +1,17 @@
 import React from "react";
 
-export const H2 : React.FunctionComponent = ({ children }) => <h2 className="text-3xl font-bold mt-3" >
+interface CommonProps {
+  className?: string
+}
+
+export const H2 : React.FunctionComponent<CommonProps> = ({ children, className }) => <h2 className={`text-3xl font-bold mt-3 ${className}`} >
   { children }
 </h2>;
 
-export const H3 : React.FunctionComponent = ({ children }) => <h3 className="text-xl font-bold" >
+export const H3 : React.FunctionComponent<CommonProps> = ({ children, className }) => <h3 className={`text-xl font-bold ${className}`} >
   { children }
 </h3>;
 
-export const H4 : React.FunctionComponent = ({ children }) => <h4 className="text-lg font-bold" >
+export const H4 : React.FunctionComponent<CommonProps> = ({ children, className }) => <h4 className={`text-lg font-bold ${className}`} >
   { children }
 </h4>
